@@ -291,9 +291,7 @@ public class BunqAPI {
             return DatatypeConverter.printBase64Binary(signature.sign());
 
         } catch (final NoSuchAlgorithmException | InvalidKeySpecException | InvalidKeyException | SignatureException e) {
-
             LOGGER.error("Failed to generate signature", e);
-
             return null;
         }
     }
