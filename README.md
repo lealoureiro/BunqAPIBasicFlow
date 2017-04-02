@@ -19,7 +19,7 @@ Usage of the project:
 <code>mvn clean install</code>
 
 
-2. Run the project with following command
+2. Run the project with following command:
 
 
 <code>java -jar target/bunq-api-basic-flow-sample-1.0-SNAPSHOT-jar-with-dependencies.jar <api_key></code>
